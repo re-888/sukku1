@@ -15,11 +15,11 @@ API_HASH = getenv("API_HASH","41c21b4f450a79e23b0ccf7593aeaad3")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","itzz_Istkhar")
+OWNER_USERNAME = getenv("OWNER_USERNAME","cores_999")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Sukku_Music_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "PANDAMUSIC9_BOT")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Ruxi")
+BOT_NAME = getenv("BOT_NAME" , "PanDa")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME")
 # ---------------------------------------------------------
@@ -40,7 +40,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7355202884))
+OWNER_ID = int(getenv("OWNER_ID", 8315544720))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -53,10 +53,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://t.me/ProBotsHQ")
+SOURCE = getenv("SOURCE", "https://t.me/+43lfMuxCp3I3ZDRl")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Itzz-Istkhar/sukku1",
+    "https://github.com/re-888/sukku1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -71,9 +71,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/IamIstkhar")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+0oekeamatNtmNjll")
-CHAT = getenv("CHAT", "https://t.me/ProBotGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+OqS-RsnNrMtjOTll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JmZajlpyTJxlZTE1")
+CHAT = getenv("CHAT", "https://t.me/+JmZajlpyTJxlZTE1")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -155,19 +155,19 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/cdnt73.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/73a0u1.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/wFGtd27V/x.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/73a0u1.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/la4rmw.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/i4bpfy.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/p470gr.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ui36cj.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
-HELP_IMG_URL = "https://files.catbox.moe/0jtph4.jpg"
+HELP_IMG_URL = "https://i.ibb.co/9FKjfDR/x.jpg"
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
