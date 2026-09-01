@@ -10,7 +10,7 @@ start_txt = """
 **Sᴛʀᴇᴀᴍɪғʏ** - Tʜᴇ Uʟᴛɪᴍᴀᴛᴇ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Sᴏʟᴜᴛɪᴏɴ  
 
 ┏━━━━━━━━━━━━━━━━━⧫
-┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://t.me/+qiOnPaMxxF8zNTFl)  
+┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://t.me/+OqS-RsnNrMtjOTll)  
 ┗━━━━━━━━━━━━━━━━━⧫
 
 __Fᴏʀᴋ ɪᴛ, ᴄᴜsᴛᴏᴍɪᴢᴇ ɪᴛ, ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ʏᴏᴜʀ ᴏᴡɴ!__
@@ -24,18 +24,18 @@ __Fᴏʀᴋ ɪᴛ, ᴄᴜsᴛᴏᴍɪᴢᴇ ɪᴛ, ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ �
 async def start(_, msg):
     buttons = [
         [
-                InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+uC5YhaBOGH0wMjA9"),
-                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘", url="https://t.me/+qiOnPaMxxF8zNTFl")
+                InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+JmZajlpyTJxlZTE1"),
+                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘", url="https://t.me/+OqS-RsnNrMtjOTll")
         ],
         [ 
-          InlineKeyboardButton("𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘", url=f"https://t.me/+qiOnPaMxxF8zNTFl")
+          InlineKeyboardButton("𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘", url=f"https://t.me/+OqS-RsnNrMtjOTll")
         ]
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://i.ibb.co/gFm6VW52/source-code.jpg",
+        photo="https://i.ibb.co/9FKjfDR/x.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -58,7 +58,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/+qiOnPaMxxF8zNTFl) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/+uC5YhaBOGH0wMjA9)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/+JmZajlpyTJxlZTE1) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/+OqS-RsnNrMtjOTll)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
